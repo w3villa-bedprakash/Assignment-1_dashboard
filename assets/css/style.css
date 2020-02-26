@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.m-bar{
+    display: none;
+}
+
+/*  common css start */
+
+.bg-white {
+    background-color: #fff;
+}
+.f-color{
+    color: white; 
+}
+
+.p-10{
+    padding: 10px; 
+}
+
+.f-l{
+    float: right;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.icon-size{
+    font-size: 45px;
+}
+
+/*  common css end */
+
+
+body {
+    overflow-x: hidden;
+    background-color: #0a2750;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.header {
+    border-bottom: 1px solid rgb(223, 213, 213);
+    height: 55px;
+}
+
+.skilljar-logo {
+
+    padding-left: 13px;
+}
+
+.left-aside {
+    width: 240px;
+    background-color: #0a2750;
+    min-height: 100vh;
+    position: absolute;
+    display: fixed;
+}
+
+.aside-links>ul>li>a>i>span {
+    padding-left: 10px;
+}
+.aside-links>ul>li>a {
+    color: #fff;
+}
+
+.aside-links>ul>li {
+    padding: 13px;
+    list-style: none;
+}
+
+.cross{
+   display: none; 
+}
+
+
+.skilljar-logo>img {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+}
+
+.aside-header {}
+
+.main-container {
+    width: calc(100vw - 240px);
+    margin-left: 240px;
+    background-color: #e3e6ea;
+    min-height:100vh;
+   
+}
+
+.greeting {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.footer>ul {
+    list-style: none;
+}
+
+.footer>ul>li {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.contents {
+    height: 145px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color:blue;
+}
+
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aside-button {
+    background-color: #0a2750;
+    border: 0px solid #0a2750;
+}
+
+.button {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+li.backbtn {
+    text-align: center;
+    background-color: rgba(46, 82, 132, 0.2);
+    margin-top: 15px;
+}
+
+.footer>ul>li {
+    padding: 7px;
+}
+
+@media only screen and (max-width: 887px)
+{
+  .col-3 {
+    width: 33.33%;
+    }   
+}
+
+@media only screen and (max-width: 668px)
+{
+    .col-3 {
+        width: 50%;
+    }  
+    .left-aside{
+        width: 0px;
+        display: none;
+        /*margin-right: 700px;*/
+    }
+    .main-container{
+        width: 100vw;
+        margin-left: 0px;
+    }
+    .m-bar{
+    display: block;
+    padding: 20px;
+     width: 20px;
+    }
+    
+    .cross{
+   display: inline-block; 
+    }
+    .show-menu{
+        display: block;
+        width: 240px;
+	transition:  2s;
+    }
+
+}
+
+
+
